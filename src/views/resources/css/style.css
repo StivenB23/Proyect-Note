@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    background: rgb(0, 0, 0);
+    height:90px;
+    font-size:19px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+header a{
+    color:rgb(255, 255, 255);
+    font-weight:400;
+}
+header a:hover{
+    color:lightblue;
+    transition: .2s ease;
+}
+header h1{
+    color:rgb(255, 255, 255);
+    font-weight:400;
+    font-family: sans-serif;  
+}
+a{
+    text-decoration: none;
+}
+/* Home */
+.conteiner-notes{
+    width:100%;
+    padding:2%;
+    display:flex;
+}
+hr{
+border:1px solid gray;
+}
+.note{
+    width:25%;
+    padding:10px;
+    margin:1%;
+    max-height:40%;
+    border-radius: 5px;
+    overflow-y: auto;
+    color:#000;
+    box-shadow:0px 2px 4px #ccc;
+}
+.note:hover{
+    box-shadow:0px 2px 6px rgb(71, 125, 241);
+}
+/* Formulario */
+form{
+    width:400px;
+    margin:20px auto;
+    background:#ccc;
+    padding:10px;
+}
+textarea{
+    width:100%;
+}
+input, textarea{
+    outline:none;
+    border:1px solid #ccc;
+}
+input[type="text"]{
+    width:100%;
+    font-size:19px;
+    padding:2px;
+}
+h3{
+    font-family:sans-serif;
+}
+label{
+font-weight:500;
+font-size:18px;
+color:#000;
+}
+button[type="submit"]{
+    border:none;
+    margin-top:10px;
+    margin-left:60px;
+    width:200px;
+    background:lightgreen;
+    color:darkgreen;
+    padding:5px;
+    font-size:18px;
+    display:block;
+}

@@ -1,0 +1,15 @@
+{
+    "name": "stive/notas",
+    "autoload": {
+        "psr-4": {
+            "Stive\\Notas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stive",
+            "email": "stiven23ospina@gmail.com"
+        }
+    ],
+    "require": {}
+}
